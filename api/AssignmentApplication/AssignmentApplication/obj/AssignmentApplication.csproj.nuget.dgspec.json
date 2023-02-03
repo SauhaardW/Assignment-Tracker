@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sauhaard/Desktop/dotNet/api/AssignmentApplication/AssignmentApplication/AssignmentApplication.csproj": {}
+  },
+  "projects": {
+    "/Users/sauhaard/Desktop/dotNet/api/AssignmentApplication/AssignmentApplication/AssignmentApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sauhaard/Desktop/dotNet/api/AssignmentApplication/AssignmentApplication/AssignmentApplication.csproj",
+        "projectName": "AssignmentApplication",
+        "projectPath": "/Users/sauhaard/Desktop/dotNet/api/AssignmentApplication/AssignmentApplication/AssignmentApplication.csproj",
+        "packagesPath": "/Users/sauhaard/.nuget/packages/",
+        "outputPath": "/Users/sauhaard/Desktop/dotNet/api/AssignmentApplication/AssignmentApplication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sauhaard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
